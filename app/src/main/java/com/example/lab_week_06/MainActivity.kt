@@ -65,6 +65,55 @@ class MainActivity : AppCompatActivity() {
                     name = "Curious George",
                     biography = "Award winning investigator",
                     imageUrl = "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Male,
+                    breed = CatBreed.Bengal,
+                    name = "Caleb",
+                    biography = "Lazy cuddler",
+                    imageUrl = "https://cdn2.thecatapi.com/images/LSaDk6OjY.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Female,
+                    breed = CatBreed.YorkChocolate,
+                    name = "Luna",
+                    biography = "Playful",
+                    imageUrl = "https://cdn2.thecatapi.com/images/sNSYauLG8.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Female,
+                    breed = CatBreed.TurkishAngora,
+                    name = "Nala",
+                    biography = "Curious explorer",
+                    imageUrl = "https://cdn2.thecatapi.com/images/ZDIuYg5UZ.png"
+                ),
+                CatModel(
+                    gender = Gender.Male,
+                    breed = CatBreed.Himalayan,
+                    name = "Oscar",
+                    biography = "Hungry all the time",
+                    imageUrl = "https://cdn2.thecatapi.com/images/kg7nc0poR.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Female,
+                    breed = CatBreed.Abyssinian,
+                    name = "Daisy",
+                    biography = "Sweet and quiet",
+                    imageUrl = "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Male,
+                    breed = CatBreed.MaineCoon,
+                    name = "Sylus",
+                    biography = "Bold leader",
+                    imageUrl = "https://cdn2.thecatapi.com/images/vXb2jdNoo.jpg"
+                ),
+                CatModel(
+                    gender = Gender.Unknown,
+                    breed = CatBreed.Sphynx,
+                    name = "Mystery Cat",
+                    biography = "Nobody knows where I come from...",
+                    imageUrl = "https://cdn2.thecatapi.com/images/DgBqcmqpc.jpg"
                 )
             )
         )
