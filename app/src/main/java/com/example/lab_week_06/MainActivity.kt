@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
             false
         )
 
+        val itemTouchHelper = androidx.recyclerview.widget.ItemTouchHelper(catAdapter.swipeToDeleteCallback)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
+
         // Add data to the adapter
         catAdapter.setData(
             listOf(
